@@ -1,6 +1,7 @@
 import { chatModel } from '../models/chat.models.js'
 
 class chatDao {
+  
 
   async createMessage(message) {
     return await chatModel.create(message)

@@ -12,6 +12,7 @@ const cartSchema = new mongoose.Schema({
       quantity: Number,
     }
   ]
+  
 })
 
 cartSchema.pre('find', function() {

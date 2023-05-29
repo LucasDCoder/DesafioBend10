@@ -8,4 +8,5 @@ const chatSchema = new mongoose.Schema({
 })
 
 
+
 export const chatModel = mongoose.model(chatCollection, chatSchema)

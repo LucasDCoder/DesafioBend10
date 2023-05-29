@@ -4,4 +4,5 @@ export default class currentUserDTO {
     this.role = user.role
     this.phone = user.phone
   }
+  
 }

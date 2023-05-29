@@ -2,6 +2,7 @@ import chatValidator from "../validators/chat.validator.js"
 
 class chatController {
 
+  
 
   async getMessages() {
 

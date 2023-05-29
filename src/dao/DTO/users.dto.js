@@ -6,4 +6,5 @@ export default class usersDTO {
     this.phone = phone
     this.role = role
   }
+  
 }

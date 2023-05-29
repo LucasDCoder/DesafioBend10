@@ -8,6 +8,7 @@ import CustomError from '../utils/CustomError.js'
 import generateUserErrorInfo from '../utils/generateUserErrorInfo.js'
 import EErrors from '../utils/EErrors.js'
 
+
 const LocalStrategy = local.Strategy;
 const headersExtractor = (req) => {
   let token = null;

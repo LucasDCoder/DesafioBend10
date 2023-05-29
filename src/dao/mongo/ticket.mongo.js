@@ -2,6 +2,7 @@ import ticketModel from "../models/ticket.models.js";
 
 
 class ticketDao {
+  
 
 
   async createTicket(ticket) {

@@ -9,6 +9,7 @@ export let Chat;
 export let Ticket;
 
 
+
 switch (config.persistence) {
   case 'MONGO':
     console.log('Persistence from DB')

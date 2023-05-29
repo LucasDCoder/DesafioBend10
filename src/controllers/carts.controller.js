@@ -43,12 +43,12 @@ class cartController {
       await cartValidator.createCart()
       res.status(201).json({ info: 'Cart Created' })
       await transport.sendMail({
-        from: 'German <german.alejandrozulet@gmail.com>',
+        from: 'Lucas <lucasdcoder@gmail.com>',
         to: req.user.user,
         subject: 'Carrito nuevo creado',
         html: `
          <div>
-          <h1> Hey! Has creado un carrito exitosamente! </h1>
+          <h1> Carrito creado exitosamente </h1>
         </div> 
 `, attachments: []
 

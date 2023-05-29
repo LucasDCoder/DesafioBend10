@@ -3,6 +3,7 @@ import jwt from "jsonwebtoken";
 import currentUserDTO from '../dao/DTO/currentUser.dto.js';
 
 class sessionsController {
+  
 
   async getLoginPage(req, res) {
     res.render('login')

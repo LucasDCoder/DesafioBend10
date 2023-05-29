@@ -1,6 +1,7 @@
 import productValidator from "../validators/productValidator.js";
 
 class productController {
+  
 
 
   async getProducts(req, res) {

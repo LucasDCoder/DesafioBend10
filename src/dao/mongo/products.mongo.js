@@ -2,6 +2,7 @@ import { productModel } from '../models/products.models.js'
 
 class productDao {
 
+  
   async getProducts(limit, query, sort, page) {
     if ((limit === 0 || !limit)) {
       return await productModel.paginate(query, { paginate: false, page: page || 1, sort: { price: sort || 0 } })

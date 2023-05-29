@@ -7,6 +7,7 @@ class CartManager {
     this.path = path
     fs.existsSync(this.path) ? this.cart = JSON.parse(fs.readFileSync(this.path, 'utf-8')) : this.cart = [];
   }
+  
 
   async createCart() {
     let carrito = {
